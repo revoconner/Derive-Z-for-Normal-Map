@@ -7,8 +7,8 @@ Most game engines will ignore the blue channel of a normal map and derive it dur
 This app let's you reconstruct the Blue channel from the existing Red and Green channel and allow you to save the reconstructed normal map with all three channels intact.
 
 ## How to use
+![image](https://github.com/user-attachments/assets/eedbc147-9027-4d8b-89b0-41949023f75e)
 
-![image](https://github.com/user-attachments/assets/9c87af7a-a0ef-47db-8b9d-c3a6c65e87af)
 
 1. Download (from the releases) and run the **Derive Z for Normal Maps.exe**
 2. Select an image file using the "browse" button. You will see a preview on the left side if the image is supported.
