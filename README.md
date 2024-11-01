@@ -1,4 +1,4 @@
-# Derive Z for Normal Maps
+# Normal Map Z Reconstruction (Derive Normal Z)
 A simple Windows program to derive blue (Z) channel for normal maps with only Red and Green channels.
 
 ## Why is it needed? 
