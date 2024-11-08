@@ -26,6 +26,10 @@ This app let's you reconstruct the Blue channel from the existing Red and Green 
 3. tga (targa)
 
 ## Changelog
-v1.0 - Initial commit
+**v1.0**
+1. Initial commit
 
-v2.0 - Added batch processing mode. | Added alternate algorithm for linearsRGB images such as from vface (texturing.xyz)
+**v2.0**
+1. Added batch processing mode.
+2. Added alternate algorithm for linearsRGB images such as from vface (texturing.xyz)
+3. Bug Fix - Icon will now show in the main window
