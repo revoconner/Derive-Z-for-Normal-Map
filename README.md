@@ -1,4 +1,4 @@
-# Normal Map Z Reconstruction (Derive Normal Z)
+# Normal Map Z Reconstruction v2.0
 A simple Windows program to derive blue (Z) channel for normal maps with only Red and Green channels.
 
 ## Why is it needed? 
@@ -7,13 +7,17 @@ Most game engines will ignore the blue channel of a normal map and derive it dur
 This app let's you reconstruct the Blue channel from the existing Red and Green channel and allow you to save the reconstructed normal map with all three channels intact.
 
 ## How to use
-![image](https://github.com/user-attachments/assets/eedbc147-9027-4d8b-89b0-41949023f75e)
+![image](https://github.com/user-attachments/assets/c89ceddc-afa5-418e-8c29-7fb112799d9e)
+![image](https://github.com/user-attachments/assets/dc0c1e2a-6bbe-46d6-b0d9-3fbf10cc0f3b)
 
 
-1. Download (from the releases) and run the **Derive Z for Normal Maps.exe**
+
+1. Download (from the releases) and run the **Normal Map Z Reconstruction.exe**
 2. Select an image file using the "browse" button. You will see a preview on the left side if the image is supported.
 3. Click the "Process" button to reconstruct the normal map. You will see a preivew on the right side if things go okay.
 4. Click "Save As" button to save the image as jpg, png or tga with the filename and location you want.
+5. Selecting more than one image file will make the program behave in batch processing mode, previews will be unavailable.
+6. In batch processing mode the images will be saved with a suffix_processed in the file format you select during save as type. Don't type anything in the filename section, doing so may result in the files being saved without an extension.
 
 
 ## Supported formats
@@ -23,3 +27,5 @@ This app let's you reconstruct the Blue channel from the existing Red and Green 
 
 ## Changelog
 v1.0 - Initial commit
+
+v2.0 - Added batch processing mode. | Added alternate algorithm for linearsRGB images such as from vface (texturing.xyz)
