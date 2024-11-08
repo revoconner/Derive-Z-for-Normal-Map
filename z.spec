@@ -1,7 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 a = Analysis(
-    ['z_v3.py'],
+    ['z.py'],
     pathex=[],
     binaries=[],
     datas=[('icon.ico', '.')],
